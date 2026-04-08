@@ -1,10 +1,18 @@
 body {
+  background-color: orange;
+  font-family: Roboto;
   margin: 0px;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
 }
+
+button {
+  font-family: Roboto;
+}
+
 .row-item {
   border: 1px solid black; 
   flex: 1;
@@ -12,6 +20,7 @@ body {
 }
 
 .grids-container {
+  background-color: lightgray;
   display: flex;
   width: 960px;
   height: 960px;
@@ -21,4 +30,8 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.size-button-container {
+  background-color: lightgray;
 }
