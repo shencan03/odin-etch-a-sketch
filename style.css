@@ -2,22 +2,23 @@ body {
   margin: 0px;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .row-item {
   border: 1px solid black; 
-  width: 48px;
-  height: 48px;
-  margin: 0.25px;
+  flex: 1;
+  box-sizing: border-box;
 }
 
 .grids-container {
   display: flex;
-  justify-content: center;
+  width: 960px;
+  height: 960px;
 }
 
 .grid-col {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
